@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Sparks-Bank/static/css/main.2ecabd15.chunk.css",
-    "main.js": "/Sparks-Bank/static/js/main.0bd87b61.chunk.js",
-    "main.js.map": "/Sparks-Bank/static/js/main.0bd87b61.chunk.js.map",
+    "main.css": "/Sparks-Bank/static/css/main.6eb98ee6.chunk.css",
+    "main.js": "/Sparks-Bank/static/js/main.54422719.chunk.js",
+    "main.js.map": "/Sparks-Bank/static/js/main.54422719.chunk.js.map",
     "runtime-main.js": "/Sparks-Bank/static/js/runtime-main.456e4b53.js",
     "runtime-main.js.map": "/Sparks-Bank/static/js/runtime-main.456e4b53.js.map",
     "static/js/2.8a1f224a.chunk.js": "/Sparks-Bank/static/js/2.8a1f224a.chunk.js",
     "static/js/2.8a1f224a.chunk.js.map": "/Sparks-Bank/static/js/2.8a1f224a.chunk.js.map",
     "index.html": "/Sparks-Bank/index.html",
-    "static/css/main.2ecabd15.chunk.css.map": "/Sparks-Bank/static/css/main.2ecabd15.chunk.css.map",
+    "static/css/main.6eb98ee6.chunk.css.map": "/Sparks-Bank/static/css/main.6eb98ee6.chunk.css.map",
     "static/js/2.8a1f224a.chunk.js.LICENSE.txt": "/Sparks-Bank/static/js/2.8a1f224a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Sparks-Bank/static/media/bank_background.7b6f4e61.jpg",
     "static/media/transaction_history.6384f212.png": "/Sparks-Bank/static/media/transaction_history.6384f212.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.456e4b53.js",
     "static/js/2.8a1f224a.chunk.js",
-    "static/css/main.2ecabd15.chunk.css",
-    "static/js/main.0bd87b61.chunk.js"
+    "static/css/main.6eb98ee6.chunk.css",
+    "static/js/main.54422719.chunk.js"
   ]
 }
