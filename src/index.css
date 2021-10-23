@@ -19,6 +19,7 @@ body {
   height: 80px;
   margin-left: 20px;
   margin-top: 10px;
+  border-radius: 50%;
 }
 .cards {
   width: 100%;
@@ -247,16 +248,27 @@ label {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-left: 20%;
   font-size: 3rem;
   color:#fff ;
 }
 .from h1 {
   font-size: 3rem;
-  text-align: center;
   color: wheat;
+  text-align: right;
+  margin-right: 42px;
 }
 .to h1 {
   font-size: 3rem;
-  text-align: center;
+  text-align: right;
   color: wheat;
+  margin-right: 42px;
+}
+.totable{
+  margin-top: 7px;
+      margin-right: 36px;
+}
+.fromtable{
+  margin-top: 7px;
+      margin-right: 36px;
 }

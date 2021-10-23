@@ -54,13 +54,13 @@ const UserDetails = (props) => {
     return (  
         <div className="userdetails">
             <div className="userdetailsinfo">
-            <div className="name">{ Username }</div>
-            <div className="email">{ Useremail }</div>
-            <div className="balance">{ Userbalance }</div>
+            <div className="name">Name:    { Username }</div>
+            <div className="email">Email:    { Useremail }</div>
+            <div className="balance">Balance:    ₹{ Userbalance }</div>
             </div>
             <div className="from">
                 <h1>Money Transferred from {props.match.params.name } </h1>
-            <table >
+            <table className="totable">
                     <thead>
                         <tr>
                             {/* <th scope="col">S.No.</th> */}
@@ -83,7 +83,7 @@ const UserDetails = (props) => {
             </div>
             <div className="to">
             <h1>Money Transferred to {props.match.params.name } </h1>
-            <table >
+            <table className="fromtable">
                     <thead>
                         <tr>
                             {/* <th scope="col">S.No.</th> */}
