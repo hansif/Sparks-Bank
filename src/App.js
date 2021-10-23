@@ -1,6 +1,7 @@
 import Header from './Header';
 import Section from './Section';
 import Footer from './Footer';
+import UserDetails from './UserDetails';
 import TransferMoney from './TranserMoney';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Customer from './Customer';
@@ -17,6 +18,7 @@ function App() {
             <Route exact path='/customer' component={ Customer } />
             <Route exact path='/transfer' component={ TransferMoney } />
             <Route exact path='/transaction' component={ Transaction } />
+            <Route exact path='/customer/:name' component={ UserDetails }/>
           </Switch>
       <Footer />
     </div>

@@ -8,9 +8,9 @@ const Section = () => {
             <h2>Welcome to the most Secure and Safe Bank</h2>
             <h4>Our Services</h4>
             <div className="cards">
-            <Card className="customer_logo" title="View All Customers" imageUrl={customer_icon}/>
-            <Card className="transfer_logo" title="Transfer Money" imageUrl={transfer_icon}/>
-            <Card className="history" title="Transaction History" imageUrl={transaction_icon}/>
+            <Card className="customer_logo" title="View All Customers" imageUrl={customer_icon} abcd='/customer'/>
+            <Card className="transfer_logo" title="Transfer Money" imageUrl={transfer_icon} abcd='/transfer'/>
+            <Card className="history" title="Transaction History" imageUrl={transaction_icon} abcd='/transaction'/>
             </div>
         </div>
      );
