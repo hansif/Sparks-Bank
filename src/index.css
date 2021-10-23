@@ -93,7 +93,8 @@ td {
   font-size: 32px;
 }
 .tda a{
-  background-color: chartreuse;
+  background-color: darkblue;
+  color: white;
   border: 2px solid brown;
   border-radius: 5px;
   cursor: pointer;
