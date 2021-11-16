@@ -63,7 +63,7 @@ const TransferMoney = () => {
                                         if(data1.val() !== null){
                                     let from_money = data.val() - amount;
                                     let to_money = +(data1.val()) + +(amount);
-                                    alert("Money Transfer");
+                                    alert("Transaction Successful");
                                     firebaseDb.child('User').child(from).update({'Balance': from_money});
                                     firebaseDb.child('User').child(to).update({'Balance': to_money});
                                         }
@@ -76,11 +76,11 @@ const TransferMoney = () => {
                                         to: "",
                                         amount: ""
                                     });
-                                    alert("Fill the correct Data");
+                                    alert("Fill the Details Correctly");
                                 }
                                }
                                else {
-                                   alert("Sender Money is Less");
+                                   alert("Insufficient Balance");
                                }
                             }
                           });
@@ -112,7 +112,7 @@ const TransferMoney = () => {
                 to: "",
                 amount: ""
             });
-            alert("Fill the Data completely")
+            alert("Fill the Details completely")
         }
     }
     return ( 
